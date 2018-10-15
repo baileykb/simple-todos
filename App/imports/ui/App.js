@@ -7,6 +7,7 @@ import { Tasks } from '../api/tasks.js';
 import Task from './Task.js';
 
 // App component - represents the whole app
+
 class App extends Component {
   handleSubmit(event) {
     event.preventDefault();
@@ -27,6 +28,7 @@ class App extends Component {
         <Task key={task._id} task={task} />
     ));
   }
+
 
   render() {
     return (
